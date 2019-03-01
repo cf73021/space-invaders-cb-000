@@ -1,5 +1,5 @@
 class Spaceship {
-  constructor(name, crew, shields, phasers){
+  constructor(name, crew, phasers, shields){
     this.name = name;
     this.crew = crew;
     if (!!crew) {
