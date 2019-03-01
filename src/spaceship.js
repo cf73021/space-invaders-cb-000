@@ -12,7 +12,7 @@ class Spaceship {
     this.phasersCharge = "uncharged" ;
     this.warpDrive = "disengaged" ;
     this.cloaked = false ;
-    if (!this.crew) {this.docked = true}
-    else {this.docked = false}
+    if (!this.crew) {this.docked = true};
+    else {this.docked = false};
   }
 }
