@@ -1,5 +1,5 @@
 class Spaceship {
-  constructor(name){
+  constructor(name, crew, shields, phasers){
     this.name = name;
     this.crew = crew;
     if (!!crew) {
@@ -14,5 +14,5 @@ class Spaceship {
     this.cloaked = false ;
     if (!this.crew) {this.docked = true}
     else {this.docked = false}
-  }    
+  }
 }
